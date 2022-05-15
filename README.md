@@ -28,11 +28,30 @@ $pip install h5py<3.0.0
 
 ```
 
-# 2. Random actions on Cartpole
+# 2. Cartpole Scenario's
 We will use the cartpole environment from OpenAI Gym to do random actions.
 
+## 2.1 Random actions to explore
+```
+CartPole_Example.ipynb
+```
 
-# Deleting the Environment
+
+
+## 2.2 Train a DQN using Keras-RL
+```
+Deep_QL_Cartpole_Keras.ipynb
+```
+
+
+
+## 2.3 Train a DQN from scratch
+```
+Deep_QL_Cartpole_Scratch.ipynb
+```
+
+
+# 3. Deleting the Environment
 ```
 conda remove --name rlenv --all
 ```
